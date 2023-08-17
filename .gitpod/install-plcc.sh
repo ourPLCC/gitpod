@@ -7,8 +7,8 @@
 git clone https://github.com/ourPLCC/plcc.git "$HOME/plcc"
 
 # Define LIBPLCC and add it to PATH in ~/.bashrc
-echo "export LIBPLCC=\"$HOME/plcc/src\"
-export PATH=\"$LIBPLCC:$PATH\"
-" > "$HOME/.bashrc"
+echo 'export LIBPLCC="$HOME/plcc/src"
+export PATH="$LIBPLCC:$PATH"
+' > "$HOME/.bashrc"
 
 source "$HOME/.bashrc"

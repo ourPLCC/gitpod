@@ -4,6 +4,6 @@
 
 tasks:
   - name: Install PLCC
-    before: echo "Installing PLCC into /plcc"
+    before: echo "Installing PLCC into $HOME/plcc"
     init: sh ./.gitpod/install-plcc.sh
-    command: export PATH="/plcc/src:$PATH"
+    command: export PATH="$HOME/plcc/src:$PATH"

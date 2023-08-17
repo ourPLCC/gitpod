@@ -4,4 +4,4 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-git clone https://github.com/ourPLCC/plcc.git /plcc
+git clone https://github.com/ourPLCC/plcc.git "$HOME/plcc"

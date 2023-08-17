@@ -5,7 +5,9 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 git clone https://github.com/ourPLCC/plcc.git "$HOME/plcc"
-echo "export LIBPLCC=\"$HOME/plcc/src
+
+# Define LIBPLCC and add it to PATH in ~/.bashrc
+echo "export LIBPLCC=\"$HOME/plcc/src\"
 export PATH=\"$LIBPLCC:$PATH\"
 " > "$HOME/.bashrc"
 

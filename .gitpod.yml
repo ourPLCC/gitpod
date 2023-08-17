@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2023 Stoney Jackson <dr.stoney@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+tasks:
+  - name: Install PLCC
+    before: echo "Installing PLCC into /plcc"
+    init: sh ./.gitpod/install-plcc.sh
+    command: export PATH="/plcc/src:$PATH"
